@@ -1,0 +1,42 @@
+
+.image{
+    height: 790px;
+}
+.two{
+    margin-left: 30px;
+    height: 815px;
+}
+label{
+    width: 85px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.input-field{
+    background-color: gainsboro;
+    display: inline-block;
+    border: none;
+    font-size:18px;
+    font-weight: 600;
+    width: 250px;
+    padding: 8px;
+    border-radius: 5px;
+}
+.save-input{
+    width: 150px;
+    padding: 10px;
+    margin-right: 10px;
+   
+   
+}
+.percentage{
+    font-size: 20px;
+    font-weight: 700;
+}
+.button{
+    margin-left: 10px;
+    padding: 8px 75px;
+    font-size: 22px;
+    font-weight: 600;
+}
