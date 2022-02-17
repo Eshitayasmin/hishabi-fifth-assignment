@@ -13,56 +13,64 @@
 <body>
     <main>
         <section>
-            <div class="container mt-5">
-                <h1 class="text-center text-primary mb-4">Debit & Credit</h1>
+            <div class="container-fluid mt-5">
+                <h1 class="text-center text-primary mb-4">HISHA<span class="text-warning">BEE</span></h1>
                 <div class="row gx-5">
-                  <div class="col-md-6">
-                    <img class="img-fluid image" src="images/save-money.jpg" alt="" srcset="">
+                  <div class="col-12 col-md-6 ms-5">
+                    <img class="img-fluid image" src="images/three.jpg" alt="" srcset="">
                   </div>
-                  <div class="col-md-5 bg-light text-center two">
-                      <!-- income -->
-                    <h3 class="mt-5 mb-3">Income</h3>
-                    <label class="label" for="income">Income:</label>
-                    <input id="income-input" class="input-field" type="text">
-                    <!-- Expenses -->
-                    <h3 class="mt-4 mb-3">Expenses</h3>
-                    <label class="label" for="food">Food:  </label>
-                    <input id="food-input" class="input-field" type="text">
-                    <br>
-                    <br>
-                    <label class="label" for="rent">Rent:  </label>
-                    <input id="rent-input" class="input-field" type="text">
-                    <br><br>
-                    <label class="label" for="cloth">Clothes:</label>
-                    <input id="clothes-input" class="input-field" type="text">
-                    <br><br>
-                    <button id="calculate-button" class="btn btn-primary button">Calculate</button>
-
-                    <h3 class="mt-4 mb-4">Total Expenses: 
-                      <span id="total-expenses">00</span></h3>
-
-                    <h3 class="mb-4">Balance:
-                      <span id="balance">00</span></h3>
-                      
-                    <label class="label" for="save">Save:</label>
-                    <input id="save-input" class="save-input input-field" type="text" value="0">
-
-                    <span class="percentage">%</span>
-
-                    <button id="save-button" class="btn btn-primary button">Save</button>
-
-                    <h3 class="mt-4">Saving Amount:
-                      <span id="saving-amount">00</span></h3>
-                    <h3 class="mt-3 mb-5">Remaining Balance:
-                      <span id="remaining-balance">00</span></h3>
-                      
-                
+                  <div class="col-12 col-md-5 text-center ms-3 two">
+                     <!-- income -->
+                     <h3 class="mt-5 mb-3">Income</h3>
+                     <label class="label" for="income">Income:</label>
+                     <input id="income-input" class="input-field" type="text" value="8000">
+                     <!-- Expenses -->
+                     <h3 class="mt-4 mb-3">Expenses</h3>
+                   <div class="mb-3">
+                     <label class="label" for="food">Food:  </label>
+                     <input id="food-input" class="input-field" type="text" value="2500">
+                   </div>
+                   <div class="mb-3">
+                     <label class="label" for="rent">Rent:  </label>
+                     <input id="rent-input" class="input-field" type="text" value="3000">
+                   </div> 
+                     <label class="label" for="cloth">Clothes:</label>
+                     <input id="clothes-input" class="input-field" type="text" value="1000">
+                     <br><br>
+                     <button id="calculate-button" class="button">Calculate</button>
+ 
+                     <h3 class="mt-4 mb-4">Total Expenses: 
+                       <span id="total-expenses">00</span></h3>
+ 
+                     <h3 class="mb-4">Balance:
+                       <span id="balance">00</span></h3>
+                   <div class="text-center">
+                     <label class="label" for="save">Save:</label>
+                     <input id="save-input" class="save-input input-field" type="text" value="0">
+ 
+                     <span class="percentage">%</span>
+ 
+                     <button id="save-button" class="button">Save</button>
+                   </div>
+                     <h3 class="mt-4">Saving Amount:
+                       <span id="saving-amount">00</span></h3>
+                     <h3 class="mt-3 mb-5">Remaining Balance:
+                       <span id="remaining-balance">00</span></h3>
                   </div>
-                  
-                </div>
               </div>
 
-               </div>
+             </div>
+        </section>
+
+        <section class="container mx-auto text-center">
+          <div>
+            <p id="number-error" class=" error">Please give a number</p>
+            <p id="negative-number" class=" error">Please give a positive number</p>
+
+            <p id="more-cost-error" class=" error">The Cost will not be more than the Income</p>
+
+            <p id="more-savings-error" class=" error">Savings amount will not be more than Balance</p>
+          </div>
         </section>
     </main>
     <!-- javaScript link -->
