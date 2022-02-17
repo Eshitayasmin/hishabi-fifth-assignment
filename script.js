@@ -13,10 +13,8 @@ function getInputNumber(inputId){
     }
     if(inputNumber > 0){
         return inputNumber;
-    }
-    // return inputNumber;     
+    }    
 }
-
 
 function getTotalExpenses(){
        const foodInput = getInputNumber('food-input');
@@ -39,8 +37,6 @@ function getTotalExpenses(){
       if( totalCost > incomeInput){
          ifCostMore.style.display = 'block';
        }
-    
-    //    return totalCost;
 }
 
 function getBalance(){
@@ -53,8 +49,7 @@ function getBalance(){
 }
 //Calculate button event handler
 document.getElementById('calculate-button').addEventListener('click', function(){
-
-    getBalance();
+   getBalance();
 
 })
 
@@ -76,5 +71,9 @@ document.getElementById('save-button').addEventListener('click', function(){
     else{
       moreSavingsError.style.display ='block';
     }
+
+    //clear input field
+    const inputField = document.getElementById('save-input');
+    inputField.value ='';
     
 })
