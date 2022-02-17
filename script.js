@@ -58,23 +58,6 @@ document.getElementById('calculate-button').addEventListener('click', function()
 
 })
 
-// //Save button event handler
-// document.getElementById('save-button').addEventListener('click', function(){
-//     const incomeInput =getInputNumber('income-input');
-//     const saveInput = getInputNumber('save-input');
-//     const savingAmount = document.getElementById('saving-amount');
-//     let save = incomeInput * saveInput / 100;
-//     savingAmount.innerText = save;
-    
-//     const balance = getBalance();
-//     //update remaining balance
-//     const remainInput = document.getElementById('remaining-balance');
-//     const remainingBalance = balance -save;
-//     remainInput.innerText = remainingBalance;
-    
-    
-
-// })
 
 //Save button event handler
 document.getElementById('save-button').addEventListener('click', function(){
@@ -93,14 +76,5 @@ document.getElementById('save-button').addEventListener('click', function(){
     else{
       moreSavingsError.style.display ='block';
     }
-    // savingAmount.innerText = save;
     
-    // const balance = getBalance();
-    //update remaining balance
-    // const remainInput = document.getElementById('remaining-balance');
-    // const remainingBalance = balance -save;
-    // remainInput.innerText = remainingBalance;
-    
-    
-
 })

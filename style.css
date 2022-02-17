@@ -1,11 +1,12 @@
 h1{
     font-size: 50px;
     font-weight: 700;
+    color: rgba(8, 150, 206, 0.61);
 }
 .image{
     height: 790px;
 }
-.two{
+.second-part{
     height: 790px;
     background-color: rgba(255, 228, 196, 0.253);
 }

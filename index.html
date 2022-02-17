@@ -14,12 +14,12 @@
     <main>
         <section>
             <div class="container-fluid mt-5">
-                <h1 class="text-center text-primary mb-4">HISHA<span class="text-warning">BEE</span></h1>
+                <h1 class="text-center mb-5">HISHA<span class="text-warning">BEE</span></h1>
                 <div class="row gx-5">
                   <div class="col-12 col-md-6 ms-5">
-                    <img class="img-fluid image" src="images/three.jpg" alt="" srcset="">
+                    <img class="img-fluid image" src="images/hishabi.jpg" alt="" srcset="">
                   </div>
-                  <div class="col-12 col-md-5 text-center ms-3 two">
+                  <div class="col-12 col-md-5 text-center ms-4 second-part">
                      <!-- income -->
                      <h3 class="mt-5 mb-3">Income</h3>
                      <label class="label" for="income">Income:</label>
@@ -44,6 +44,8 @@
  
                      <h3 class="mb-4">Balance:
                        <span id="balance">00</span></h3>
+                       
+                       <!--savings part -->
                    <div class="text-center">
                      <label class="label" for="save">Save:</label>
                      <input id="save-input" class="save-input input-field" type="text" value="0">
@@ -52,7 +54,7 @@
  
                      <button id="save-button" class="button">Save</button>
                    </div>
-                     <h3 class="mt-4">Saving Amount:
+                     <h3 class="mt-4">Savings Amount:
                        <span id="saving-amount">00</span></h3>
                      <h3 class="mt-3 mb-5">Remaining Balance:
                        <span id="remaining-balance">00</span></h3>
@@ -63,6 +65,7 @@
         </section>
 
         <section class="container mx-auto text-center">
+          <!-- error message -->
           <div>
             <p id="number-error" class=" error">Please give a number</p>
             <p id="negative-number" class=" error">Please give a positive number</p>
